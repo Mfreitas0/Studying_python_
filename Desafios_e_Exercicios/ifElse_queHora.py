@@ -5,8 +5,7 @@ Pergunte a hora atual com base no horario o programa vai respoder: Bom dia, boa 
 """
 
 print(f'Informe somente a hora. \nex: 12')
-a = 0
-while a == 0:
+while True:
 
     hora = input("Por favor, informe que horas são? ")
     if hora.isdigit() or hora == 'exit':
